@@ -1,0 +1,37 @@
+{
+  "orders": [
+    { "id": "ORD-001", "customer": "Alice Johnson", "product": "Laptop Pro", "quantity": 1, "price": 1200, "total": 1200, "status": "Completed", "date": "2024-03-01" },
+    { "id": "ORD-002", "customer": "Bob Smith", "product": "Wireless Mouse", "quantity": 2, "price": 25, "total": 50, "status": "Pending", "date": "2024-03-02" },
+    { "id": "ORD-003", "customer": "Charlie Brown", "product": "Monitor 4K", "quantity": 1, "price": 450, "total": 450, "status": "Completed", "date": "2024-03-05" },
+    { "id": "ORD-004", "customer": "Diana Prince", "product": "Keyboard Mech", "quantity": 1, "price": 150, "total": 150, "status": "Shipped", "date": "2024-03-07" },
+    { "id": "ORD-005", "customer": "Edward Norton", "product": "USB-C Hub", "quantity": 3, "price": 40, "total": 120, "status": "Completed", "date": "2024-03-10" },
+    { "id": "ORD-006", "customer": "Fiona Apple", "product": "Laptop Pro", "quantity": 1, "price": 1200, "total": 1200, "status": "Pending", "date": "2024-03-12" },
+    { "id": "ORD-007", "customer": "George Miller", "product": "Wireless Mouse", "quantity": 1, "price": 25, "total": 25, "status": "Completed", "date": "2024-03-14" },
+    { "id": "ORD-008", "customer": "Hannah Montana", "product": "Monitor 4K", "quantity": 2, "price": 450, "total": 900, "status": "Cancelled", "date": "2024-03-15" }
+  ],
+  "customers": [
+    { "id": "CUST-001", "name": "Alice Johnson", "email": "alice@example.com", "orders": 5, "spent": 4500 },
+    { "id": "CUST-002", "name": "Bob Smith", "email": "bob@example.com", "orders": 2, "spent": 150 },
+    { "id": "CUST-003", "name": "Charlie Brown", "email": "charlie@example.com", "orders": 12, "spent": 8900 }
+  ],
+  "revenue": [
+    { "month": "Jan", "amount": 4500, "orders": 120 },
+    { "month": "Feb", "amount": 5200, "orders": 145 },
+    { "month": "Mar", "amount": 4800, "orders": 132 },
+    { "month": "Apr", "amount": 6100, "orders": 168 },
+    { "month": "May", "amount": 5900, "orders": 155 },
+    { "month": "Jun", "amount": 7200, "orders": 190 }
+  ],
+  "status": [
+    { "name": "Completed", "value": 45 },
+    { "name": "Pending", "value": 25 },
+    { "name": "Shipped", "value": 20 },
+    { "name": "Cancelled", "value": 10 }
+  ],
+  "products": [
+    { "name": "Laptop Pro", "sales": 120, "revenue": 144000 },
+    { "name": "Wireless Mouse", "sales": 450, "revenue": 11250 },
+    { "name": "Monitor 4K", "sales": 85, "revenue": 38250 },
+    { "name": "Keyboard Mech", "sales": 210, "revenue": 31500 }
+  ]
+}
